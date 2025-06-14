@@ -1,0 +1,96 @@
+.cardOverview {
+  width: auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+
+.cardOverview:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.subCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  flex-wrap: nowrap;
+
+}
+
+.author {
+  display:flex;
+  justify-content: start;
+  font-size: 0.9rem;
+  color: #555;
+
+}
+
+.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.icon:hover {
+  background-color: #f0f0f0;
+}
+
+.getintouch {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.getintouch:hover {
+  background-color: #005fcc;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.alt {
+  font-size: 0.8rem;
+  color: #888;
+}
+.subtitle{
+    width: 80Vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.icons{
+  display: flex;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
