@@ -1,27 +1,27 @@
 [
     {
-      "goto": "/",
+      "goto": "projeto-frontend-II/",
       "descricao": "Home"
       
     },
     {
-      "goto": "/sobre",
+      "goto": "projeto-frontend-II/sobre",
       "descricao": "Sobre nós"
      
     },
     {
-      "goto": "/produtos",
+      "goto": "projeto-frontend-II/produtos",
       "descricao": "Produtos"
       
     },
     {
-      "goto": "/contato",
+      "goto": "projeto-frontend-II/contato",
       "descricao": "Contato"
      
     }    
     ,
     {
-      "goto": "/downloads",
+      "goto": "projeto-frontend-II/downloads",
       "descricao": "Downloads"
       
     } 

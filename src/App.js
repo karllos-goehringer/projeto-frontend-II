@@ -13,12 +13,12 @@ function App() {
     <BrowserRouter basename="/projeto-frontend-II">
       <Routes>
         <Route index element={<Inicio />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/produtos" element={<Produto />} />
-        <Route path="/itemPagina/:id" element={<ItemPage />} />
-        <Route path='/downloads' element={<Downloads />} />
+        <Route path="projeto-frontend-II/sobre" element={<Sobre />} />
+        <Route path="projeto-frontend-II/produtos" element={<Produto />} />
+        <Route path="projeto-frontend-II/itemPagina/:id" element={<ItemPage />} />
+        <Route path='projeto-frontend-II/downloads' element={<Downloads />} />
         <Route path="*" element={<Default />} />
-        <Route path="/contato" element={<Contatos />} />
+        <Route path="projeto-frontend-II/contato" element={<Contatos />} />
       </Routes>
     </BrowserRouter>
   );
