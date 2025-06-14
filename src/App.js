@@ -10,7 +10,7 @@ import Contatos from './paginas/Contato';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/projeto-frontend-II">
       <Routes>
         <Route index element={<Inicio />} />
         <Route path="/sobre" element={<Sobre />} />
